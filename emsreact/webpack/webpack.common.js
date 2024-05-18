@@ -51,6 +51,7 @@ module.exports = {
   devServer: {
     hot: true,
     historyApiFallback: true,
+    allowedHosts: "all",
     devMiddleware: {
       writeToDisk: true,
     },
